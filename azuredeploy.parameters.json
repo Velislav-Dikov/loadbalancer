@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_webvm1_name": {
+            "value": "webvm1"
+        },
+        "virtualMachines_webvm2_name": {
+            "value": "webvm2"
+        },
+        "virtualNetworks_vnetmol_name": {
+            "value": "vnetmol"
+        },
+        "networkInterfaces_webnic1_name": {
+            "value": "webnic1"
+        },
+        "networkInterfaces_webnic2_name": {
+            "value": "webnic2"
+        },
+        "loadBalancers_loadbalancer_name": {
+            "value": "loadbalancer"
+        },
+        "publicIPAddresses_publicip_name": {
+            "value": "publicip"
+        },
+        "networkSecurityGroups_webnsg_name": {
+            "value": "webnsg"
+        }
+    }
+}
